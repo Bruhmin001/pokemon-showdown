@@ -21,14 +21,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
    // Custom Metagames
 	///////////////////////////////////////////////////////////////////	
 	{
-		section: "TDL",
+		section: "TDL Singles",
 	},
 	{
-		name: "Tactical Draft League",
-		desc: `Have Fun`,
+		name: "TDL Random Battle",
+		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		mod: 'gen9',
 		bestOfDefault: true,
-		 ruleset: ['Standard National Dex'],
+		ruleset: ['Standard NatDex'],
 	},
 		
 	// S/V Singles
