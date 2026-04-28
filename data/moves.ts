@@ -15,6 +15,24 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Psychic",
 		contestType: "Clever",
 	},
+	crabdance: {
+		num: 10002,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Crab Dance",
+		pp: 10,
+		priority: 0,
+		flags: { snatch: 1, dance: 1, metronome: 1 },
+		boosts: {
+			atk: 1,
+			def: 1,
+			spe: 1,
+		},
+		target: "self",
+		type: "Water",
+	},
+
 	"10000000voltthunderbolt": {
 		num: 719,
 		accuracy: true,

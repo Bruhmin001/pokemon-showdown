@@ -1,4 +1,14 @@
 export const MovesText: { [id: IDEntry]: MoveText } = {
+	crabdance: {
+		name: "Crab Dance",
+		desc: "Raises the user's Attack, Defense, and Speed by 1 stage each.",
+		shortDesc: "Raises all stats by 1.",
+	},
+	deoxysblast: {
+		name: "Deoxys Blast",
+		desc: "It will kill and heal.",
+		shortDesc: "wassa.",
+	},
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
 		desc: "Has a very high chance for a critical hit.",
