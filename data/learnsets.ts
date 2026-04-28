@@ -14311,6 +14311,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	kingler: {
 		learnset: {
+			deoxysblast: ["9M"],
 			agility: ["8M", "8V"],
 			allyswitch: ["8M", "7T"],
 			amnesia: ["8M", "8V"],

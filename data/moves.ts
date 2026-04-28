@@ -1,6 +1,20 @@
 // List of flags and their descriptions can be found in sim/dex-moves.ts
 
 export const Moves: import('../sim/dex-moves').MoveDataTable = {
+	deoxysblast: {
+		num: 10001,
+		accuracy: 100,
+		basePower: 500,
+		category: "Special",
+		name: "Deoxys Blast",
+		pp: 25,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, heal: 1, metronome: 1 },
+		drain: [1, 2],
+		target: "normal",
+		type: "Psychic",
+		contestType: "Clever",
+	},
 	"10000000voltthunderbolt": {
 		num: 719,
 		accuracy: true,

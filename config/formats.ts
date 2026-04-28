@@ -18,7 +18,19 @@ The column value will be ignored for repeat sections.
 */
 
 export const Formats: import('../sim/dex-formats').FormatList = [
-
+   // Custom Metagames
+	///////////////////////////////////////////////////////////////////	
+	{
+		section: "TDL",
+	},
+	{
+		name: "Tactical Draft League",
+		desc: `Have Fun`,
+		mod: 'gen9',
+		bestOfDefault: true,
+		 ruleset: ['Standard'],
+	},
+		
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
