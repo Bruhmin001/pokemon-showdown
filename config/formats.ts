@@ -28,7 +28,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		desc: `Have Fun`,
 		mod: 'gen9',
 		bestOfDefault: true,
-		 ruleset: ['Standard'],
+		 ruleset: ['Standard National Dex'],
 	},
 		
 	// S/V Singles
