@@ -20,16 +20,16 @@ The column value will be ignored for repeat sections.
 export const Formats: import('../sim/dex-formats').FormatList = [
    // Custom Metagames
 	///////////////////////////////////////////////////////////////////	
-	// {
-	// 	section: "TDL Singles",
-	// },
-	// {
-	// 	name: "TDL Random Battle",
-	// 	desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
-	// 	mod: 'gen9',
-	// 	bestOfDefault: true,
-	// 	ruleset: ['Standard NatDex'],
-	// },
+	{
+		section: "TDL Singles",
+	},
+	{
+		name: "TDL Random Battle",
+		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
+		mod: 'gen9',
+		bestOfDefault: true,
+		ruleset: ['Standard NatDex'],
+	},
 		
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
@@ -46,7 +46,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod'],
 	},
 	{
-		name: "TDL Random Battle",
+		name: "TDL Randoms Battle",
 		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		mod: 'gen9',
 		bestOfDefault: true,
